@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             PodlodkaHomeworkTheme {
                 // A surface container using the 'background' color from the theme
-                Surface(color = Color.Cyan) {
+                Surface(color = MaterialTheme.colors.background) {
                    MainScreen()
                 }
             }
@@ -35,6 +35,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     PodlodkaHomeworkTheme {
-        Greeting("Android")
+        MainScreen()
     }
 }

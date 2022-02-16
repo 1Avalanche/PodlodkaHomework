@@ -19,7 +19,7 @@ fun GameHeader(imageId: Int, name: String, ratio: Int, reviewCounter: Int,
         Image(painter = painterResource(id = imageId), contentDescription = name, contentScale = ContentScale.FillBounds,
         modifier = Modifier
             .fillMaxWidth()
-            .height(354.dp))
+            .height(312.dp))
 
         Column(verticalArrangement = Arrangement.SpaceBetween,
         modifier = Modifier.fillMaxSize().padding( start = 24.dp, end = 24.dp)) {
